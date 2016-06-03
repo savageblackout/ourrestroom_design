@@ -1,0 +1,250 @@
+/* COLORS */
+/*FONT COLOR*/
+/*FONT STYLE*/
+/*MAIN CONTAINER*/
+.col-1 {
+  width: 8.33%; }
+
+.col-2 {
+  width: 16.66%; }
+
+.col-3 {
+  width: 25%; }
+
+.col-4 {
+  width: 33.33%; }
+
+.col-5 {
+  width: 41.66%; }
+
+.col-6 {
+  width: 50%; }
+
+.col-7 {
+  width: 58.33%; }
+
+.col-8 {
+  width: 66.66%; }
+
+.col-9 {
+  width: 75%; }
+
+.col-10 {
+  width: 83.33%; }
+
+.col-11 {
+  width: 91.66%; }
+
+.col-12 {
+  width: 100%; }
+
+.row::after {
+  content: "";
+  clear: both;
+  display: block; }
+
+body {
+  font-family: "Gotham Rounded";
+  background: #50b963;
+  margin: 0em;
+  box-sizing: border-box;
+  font-size: 100%; }
+
+.main-container-wrapper {
+  margin-bottom: 2rem;
+  display: inline-flex;
+  flex-direction: column;
+  background: #50b963;
+  max-width: 100%;
+  max-height: 100%;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center; }
+
+/*NAV*/
+.nav {
+  height: 15vh;
+  display: inline-flex;
+  flex-direction: row;
+  width: 100%;
+  background: black;
+  color: white;
+  position: static;
+  padding-bottom: 5px;
+  align-items: center; }
+
+.nav-items {
+  justify-content: space-around;
+  align-items: center;
+  flex: none; }
+
+.nav-items ul li {
+  flex-wrap: nowrap;
+  display: inline-flex;
+  width: 5rem;
+  float: left;
+  align-self: center; }
+
+.nav-items li a {
+  font-size: 1.35rem;
+  flex-grow: 1;
+  flex-basis: auto;
+  flex-wrap: nowrap;
+  align-self: center; }
+
+li {
+  display: inline;
+  align-items: center; }
+
+ul {
+  list-style-type: circle;
+  list-style-position: inside;
+  align-self: center; }
+
+a {
+  align-self: center; }
+
+.header-logo img {
+  align-self: center;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto; }
+
+.header-link a {
+  align-self: center; }
+
+.grid {
+  flex-wrap: wrap;
+  flex-direction: row; }
+
+.header-wrapper {
+  margin: 0 auto;
+  display: inline-flex;
+  align-content: center; }
+
+.menu {
+  align-items: center; }
+
+/*CONTAINER ONE*/
+.container-one {
+  display: flex;
+  color: white;
+  background-color: #50b963;
+  padding-bottom: 2em; }
+
+.container-one-full-logo img {
+  max-height: 100%;
+  max-width: 100%;
+  padding-top: 5em;
+  align-self: center; }
+
+.container-one-big-copy {
+  font-family: "Gotham Rounded";
+  color: white;
+  align-self: center;
+  justify-content: flex-end;
+  text-align: right;
+  display: inline-block;
+  font-size: 5rem;
+  max-width: 100%; }
+
+.container-one-big-copy span {
+  justify-content: flex-end;
+  max-width: 100%; }
+
+/*MIDDLE BAR*/
+.middle-bar {
+  background-color: black;
+  width: 100%;
+  height: 5em;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  display: inline-flex; }
+
+.link-to-ed-biz h1 {
+  text-align: center;
+  color: white;
+  line-height: 100%;
+  font-size: 2.75em; }
+
+/*CONTAINER TWO*/
+.container-two {
+  width: 100%;
+  height: 115vh;
+  background: white;
+  display: flex;
+  color: #50b963;
+  justify-content: center; }
+
+.container-two-postcard {
+  align-self: center; }
+
+.container-two-all-copy-button {
+  display: block;
+  justify-content: center;
+  width: 48vw;
+  align-self: center;
+  height: 115vh;
+  margin-left: 115px; }
+
+.container-two-big-copy {
+  text-align: center;
+  text-align: left; }
+
+.container-two-big-copy h1 {
+  font-size: 2.5em; }
+
+.container-two-big-copy h3 {
+  font-size: 1.5em; }
+
+.container-two-subheadline {
+  text-align: center;
+  text-align: left; }
+
+.container-two-copy {
+  text-align: justify;
+  color: gray;
+  text-align: left; }
+
+.container-two-educate-biz-button {
+  text-align: center; }
+
+.button {
+  border-top: 0px solid #50b963;
+  background: #50b963;
+  background: -webkit-gradient(linear, left top, left bottom, from(#50b963), to(#50b963));
+  background: -webkit-linear-gradient(top, #50b963, #50b963);
+  background: -moz-linear-gradient(top, #50b963, #50b963);
+  background: -ms-linear-gradient(top, #50b963, #50b963);
+  background: -o-linear-gradient(top, #50b963, #50b963);
+  padding: 20px 40px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  color: white;
+  font-size: 24px;
+  font-family: "Gotham Rounded";
+  text-decoration: none;
+  vertical-align: middle; }
+
+.button:hover {
+  border-top-color: #50b963;
+  background: #50b963;
+  color: #ccc; }
+
+/*CONTAINER THREE*/
+.container-three {
+  height: 80vh; }
+
+/*CONTAINER FOUR*/
+.container-four {
+  height: 80vh; }
+
+/*FOOTER*/
+.footer {
+  height: 30vh; }
+
+/*RESPONSIVE*/
+
+/*# sourceMappingURL=main.css.map */
