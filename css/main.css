@@ -597,7 +597,9 @@ a {
   font-size: 24px;
   font-family: "MuseoSansRounded-700";
   text-decoration: none;
-  vertical-align: middle; }
+  vertical-align: middle;
+  border-style: none;
+  border-color: none; }
 
 .button:hover {
   border-top-color: #6b6b6b;
