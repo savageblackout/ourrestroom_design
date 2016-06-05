@@ -1,6 +1,7 @@
 @charset 'utf-8';
 @import 'variables';
 @import 'mediaqueries';
+@import 'normalize';
 
 /*MAIN CONTAINER*/
 
@@ -40,48 +41,11 @@ body {
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
-  // @media (min-width: $screen-sm) {
-  //   width: 100%;
-  // }
-  // @media (min-width: $screen-md) {
-  //   width: 100%;
-  // }
-  // @media (min-width: $screen-lg) {
-  //   width: 100%;
-  // }
 }
 
 
 /*NAV*/
-// @media (min-width: $screen-sm) {
-//   width: 100%;
-//   img: 100%;
-//   .nav {
 
-//   }
-// }
-// @media (min-width: $screen-md) {
-//   img: 100%;
-//   width: 100%;
-//   .nav {
-
-//   }
-//   .nav-items li a {
-//     // display: block;
-//   }
-// }
-// @media (min-width: $screen-lg) {
-//   width: 100%;
-//   .nav {
-
-//   }
-//   img: 100%;
-// }
-// @media (min-width: $screen-xl) {
-//   .nav {
-
-//   }
-// }
 .nav {
   font-family: $big-copy-font-family;
   height: 15vh;
@@ -232,7 +196,6 @@ ul {
   justify-content: center;
   width: 48vw;
   align-self: center;
-  // height: 115vh;
   margin-left: 115px;
 }
 
@@ -291,9 +254,9 @@ ul {
 }
 
 .button:hover {
-  border-top-color: $body-bg;
-  background: $body-bg;
-  color: #ccc;
+  border-top-color: #6b6b6b;
+  background: #6b6b6b;
+  color: #ffffff;
 }
 
 /*CONTAINER THREE*/
