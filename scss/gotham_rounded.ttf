@@ -1,7 +1,0 @@
-@font-face {font-family: "Gotham Rounded";
-    src: url("http://db.onlinewebfonts.com/t/d31d488d2171c1668c15962fc6cf1ef7.eot");
-    src: url("http://db.onlinewebfonts.com/t/d31d488d2171c1668c15962fc6cf1ef7.eot?#iefix") format("embedded-opentype"),
-    url("http://db.onlinewebfonts.com/t/d31d488d2171c1668c15962fc6cf1ef7.woff2") format("woff2"),
-    url("http://db.onlinewebfonts.com/t/d31d488d2171c1668c15962fc6cf1ef7.woff") format("woff"),
-    url("http://db.onlinewebfonts.com/t/d31d488d2171c1668c15962fc6cf1ef7.ttf") format("truetype"),
-    url("http://db.onlinewebfonts.com/t/d31d488d2171c1668c15962fc6cf1ef7.svg#Gotham Rounded") format("svg");

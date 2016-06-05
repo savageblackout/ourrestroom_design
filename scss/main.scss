@@ -24,7 +24,6 @@
 }
 
 body {
-  font-family: $font;
   background: $body-bg;
   margin: 0em;
   box-sizing: border-box;
@@ -84,6 +83,7 @@ body {
 //   }
 // }
 .nav {
+  font-family: $big-copy-font-family;
   height: 15vh;
   display: inline-flex;
   flex-direction: row;
@@ -177,7 +177,7 @@ ul {
 }
 
 .container-one-big-copy {
-  font-family: $font;
+  font-family: $big-copy-font-family;
   color: $container-one-font;
   align-self: center;
   justify-content: flex-end;
@@ -196,6 +196,7 @@ ul {
 
 .middle-bar {
   background-color: $header-footer-mid-bg;
+  font-family: $big-copy-font-family;
   width: 100%;
   height: 5em;
   margin: 0 auto;
@@ -215,7 +216,7 @@ ul {
 
 .container-two {
   width: 100%;
-  height: 115vh;
+  height: 150vh;
   background: $container-two-bg;
   display: flex;
   color: $container-two-big-copy-font;
@@ -231,7 +232,7 @@ ul {
   justify-content: center;
   width: 48vw;
   align-self: center;
-  height: 115vh;
+  // height: 115vh;
   margin-left: 115px;
 }
 
@@ -241,26 +242,33 @@ ul {
 }
 
 .container-two-big-copy h1{
+  font-family: $big-copy-font-family;
   font-size: 2.5em;
 }
 
 .container-two-big-copy h3 {
   font-size: 1.5em;
+  font-family: $big-copy-font-family;
+
 }
 
 .container-two-subheadline {
-  text-align: center;
   text-align: left;
+  font-family: $big-copy-font-family;
+
 }
 
 .container-two-copy {
   text-align: justify;
   color: $container-two-copy-font;
   text-align: left;
+  font-family: $smalll-copy-font-family;
 }
 
 .container-two-educate-biz-button {
   text-align: center;
+  align-self: flex-end;
+  align-items: flex-end;
 }
 
 .button {
@@ -277,7 +285,7 @@ ul {
   border-radius: 0px;
   color: white;
   font-size: 24px;
-  font-family: $font;
+  font-family: $big-copy-font-family;
   text-decoration: none;
   vertical-align: middle;
 }
